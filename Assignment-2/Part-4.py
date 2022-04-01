@@ -43,7 +43,8 @@ class Queue:
 
         
 '''Test Cases'''    
-        
+
+print("\n\nProcessing for the Queue \n")
 queueList1 = Queue()
 queueList1.enqueue(2)
 queueList1.enqueue('Julia')
@@ -82,16 +83,16 @@ queueList2.dequeue()
 queueList2.dequeue()
 queueList2.front()
 print("Current Queue = ", end = "")
-print(queueList1.data)
+print(queueList2.data)
 queueList2.dequeue()
 queueList2.enqueue(213)
 queueList2.front()
 queueList2.enqueue("Cody")
 print("Current Queue = ", end = "")
-print(queueList1.data)
+print(queueList2.data)
 queueList2.enqueue('Naomi')
 queueList2.front()
 queueList2.dequeue()
 queueList2.front()
 print("Current Queue = ", end = "")
-print(queueList1.data)
+print(queueList2.data)
