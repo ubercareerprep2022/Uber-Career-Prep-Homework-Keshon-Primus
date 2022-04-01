@@ -38,7 +38,7 @@ class Stack:
         
 '''Test Cases'''    
 
-print("\n\n Now for the Stack")        
+print("\n\nProcessing for the Stack \n")        
 stackList = Stack()
 stackList.push(2)
 stackList.push('Julia')
